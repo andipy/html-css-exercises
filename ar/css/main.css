@@ -1,0 +1,93 @@
+/********************** GENERAL **********************/
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Do Hyeon', sans-serif;
+	margin: 0;
+	background-image: url("../img/Cattura.JPG");
+	background-size: 100%;		
+}
+
+/********************** HEADER **********************/
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-align: left;
+}
+
+.logo {
+	padding: 3% 0 1% 0;
+	text-align: center;
+}
+
+.logo a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	margin-left: 2%;
+}
+
+.logo a:hover {
+	color: green;	
+}
+
+header {
+	border-bottom: 1px white solid;
+	margin: 0;
+	overflow: auto;
+}
+
+.nav-list {
+	padding: 0;
+	text-align: center;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+	float: right;	
+}
+
+.nav-list li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 1.2em;		
+}
+
+/********************** SECTION **********************/
+
+img {
+	display: block;		
+	border: 30px white solid;
+	margin: 0 auto;
+}
+
+
+/********************** FOOTER **********************/
+
+.footer {
+	text-align: center;
+	border-top: 1px white solid;
+	padding: 2% 0;		
+}
+
+.footer li {
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	font-size: 1.1em;
+}
+
+.footer li a{
+	text-decoration: none;
+	color: white;		
+}

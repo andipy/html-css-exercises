@@ -1,0 +1,132 @@
+/*********************************************
+GENERAL
+*********************************************/
+
+html, body {
+	height: 100%;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+/*********************************************
+HEADER
+*********************************************/
+
+#logo {
+	font-family: 'Smokum';
+	margin: 0;	
+	text-align: center;
+	font-size: 3em;		
+}
+
+#logo a {	
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.main-header {
+	padding: 20px 0 0 0;				
+}
+
+.main-header-fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;	
+}
+
+/*********************************************
+NAV
+*********************************************/
+
+.navbar ul {		
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 0;	
+}
+
+.navbar ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.navbar ul li a {
+	font-family: 'Smokum';
+	color: #ffffff; 	
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+
+/*********************************************
+BANNER
+*********************************************/
+
+#banner {
+	height: 100%;
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner p {
+	margin: 0;
+	text-align: center;
+	padding: 600px 0 0 0;
+	color: #ffffff;
+	font-family: 'Smokum';
+	font-size: 2em;
+}
+
+.arrow1 {
+	width: 50px;
+	display: block;
+	margin: 20px auto;
+}
+
+
+/*********************************************
+SERVIZIO
+*********************************************/
+
+#servizio {
+	height: 100%;
+	background-color: #ef5350;
+}
+
+#servizio p {
+	font-family: 'Smokum';
+	margin: 0;
+	text-align: center;
+	padding-top: 600px;
+}
+
+.arrow2 {
+	width: 50px;
+	display: block;
+	margin: 20px auto;
+}
+
+
+/*********************************************
+FOOTER
+*********************************************/
+
+footer {
+	padding: 30px 0;
+	background-color: rgb(255, 90, 95);
+	border-top: 1px dotted red;
+}
+
+footer p {
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+}

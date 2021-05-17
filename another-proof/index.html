@@ -1,0 +1,85 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Prova Experiment</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Dhurjati|Ribeye+Marrow|Smokum" rel="stylesheet">
+	</head>
+
+<!-- ...............................BODY BODY BODY.............................. -->
+	<body>
+<!-- ...............................HEADER.............................. -->
+		<header class="main-header clearfix main-header-fixed">
+			<h1 id="logo">
+				<a href="index.html">Logo</a>
+			</h1>
+
+			<nav class="navbar">
+				<ul>
+					<li><a href="index.html #servizio">Have a space</a></li>
+					<li><a href="need.html">Need a space</a></li>
+					<li><a href="community.html">Community</a></li>
+					<li><a href="registrati.html">Registrati</a></li>
+					<li><a href="accedi.html">Accedi</a></li>
+				</ul>				
+			</nav>			
+		</header>
+
+		<div id="banner">
+			<p>Scopri la community</p>
+			<a href="index.html #servizio">
+				<img src="img/arrow.svg" class="arrow1">
+			</a>
+		</div>
+
+		<div id="servizio">			
+			<p>paragrafo scritto</p>
+			<a href="index.html #servizio">
+				<img src="img/arrow.svg" class="arrow2">
+			</a>
+		</div>
+
+<!-- ...............................FOOTER.............................. -->
+		<footer>
+			<p>&copy 2018 Renet</p>			
+		</footer>
+
+<!-- ...............................SCRIPTS.............................. -->
+
+		<!-- SMOOTH SCROLLING -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 700, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+		</script>
+
+	</body>
+
+</html>

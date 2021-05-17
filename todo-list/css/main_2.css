@@ -1,0 +1,42 @@
+/********************
+GENERAL
+********************/
+body {
+    font-family: roboto;
+    background-color: purple;
+}
+
+#container {
+    width: 30%;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.fa-plus {
+    float: right;
+}
+
+.inline-elem {
+    display: inline-block;
+}
+
+.done {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.faded {
+    display: none;
+    transition: 300ms all;
+}
